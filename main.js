@@ -30,6 +30,6 @@ const dillon = new Person (personProps)
 
 console.log(dillon.fullName)
 
-dillon._nickName = 'Dill Pickle'
+dillon.nickName = 'Dill Pickle'
 
 console.log(dillon._nickName)
