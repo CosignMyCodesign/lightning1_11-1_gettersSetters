@@ -16,7 +16,7 @@ class Person {
   }
 
   set nickName (name) {
-    this.nickName = name
+    this._nickName = name
   }
 
 }
@@ -30,6 +30,6 @@ const dillon = new Person (personProps)
 
 console.log(dillon.fullName)
 
-personProps.nickName = 'Dill Pickle'
+dillon._nickName = 'Dill Pickle'
 
-console.log(personProps.nickName)
+console.log(dillon._nickName)
